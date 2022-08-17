@@ -22,6 +22,9 @@ export function Navbar() {
       <li>
         <a href="#state">State</a>
       </li>
+      <li>
+        <a href="#prop_types">PropTypes</a>
+      </li>
     </nav>
   );
 }

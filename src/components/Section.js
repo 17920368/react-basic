@@ -7,7 +7,7 @@
 //   name: "Victor",
 //   lastName: "Rodriguez",
 // };
-
+import PropTypes from "prop-types";
 export function Section(props) {
   return (
     <section
@@ -19,3 +19,13 @@ export function Section(props) {
     </section>
   );
 }
+Section.propTypes = {
+  id: PropTypes.string,
+  title: PropTypes.string,
+  bg: PropTypes.string,
+};
+Section.defaultProps = {
+  id: "Some",
+  title: "Some",
+  bg: "blue",
+};

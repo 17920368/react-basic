@@ -16,8 +16,8 @@
 }
 .nav li {
   display: inline-block;
-  width: 15%;
-  padding: 2rem 0.5rem;
+  width: 5%;
+  padding: 2rem 0.2rem;
 }
 .nav li a {
   text-decoration: none;
@@ -29,7 +29,7 @@
   color: blue;
 }
 .nav__logo img {
-  width: 15%;
+  width: 50%;
   display: block;
   margin-top: -5px;
 }
