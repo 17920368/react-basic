@@ -2,9 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { Section } from "./components/Section";
 import { Navbar } from "./components/Nav";
-import { Button } from "./components/HandleElement";
-import { Input } from "./components/InputHandle";
+// import { Button } from "./components/HandleElement";
+// import { Input } from "./components/InputHandle";
 // import { Card } from "./components/Card";
+import { Button } from "./components/Fetch";
 import "./style.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -18,8 +19,8 @@ root.render(
     <Section bg="red" title="State" id="state"></Section>
     <Section bg="black" title="Prop Types" id="prop_types"></Section>
     <Section bg={"purple"} title="Prop Types" id="prop_types"></Section>
+    {/* <Button></Button> */}
+    {/* <Input></Input> */}
     <Button></Button>
-    <Input></Input>
-    {/* <Card></Card> */}
   </>
 );
