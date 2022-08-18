@@ -2,8 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { Section } from "./components/Section.js";
 import { Navbar } from "./components/Nav.js";
-// import HelloWorldComponent from "./components/ComponentTypes.jsx";
-import style from "./style.css";
+import { Button } from "./components/HandleElement.js";
+import { Input } from "./components/InputHandle.js";
+import "./style.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,7 +16,8 @@ root.render(
     <Section bg="#61d7d3" title="Props" id="props"></Section>
     <Section bg="red" title="State" id="state"></Section>
     <Section bg="black" title="Prop Types" id="prop_types"></Section>
-    <Section bg={321} title="Prop Types" id="prop_types"></Section>
-    {/* <HelloWorldComponent name={false}></HelloWorldComponent> */}
+    <Section bg={"purple"} title="Prop Types" id="prop_types"></Section>
+    <Button></Button>
+    <Input></Input>
   </>
 );

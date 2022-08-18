@@ -20,12 +20,12 @@ export function Section(props) {
   );
 }
 Section.propTypes = {
-  id: PropTypes.string,
-  title: PropTypes.string,
   bg: PropTypes.string,
+  title: PropTypes.string,
+  id: PropTypes.string,
 };
 Section.defaultProps = {
-  id: "Some",
+  bg: "red",
   title: "Some",
-  bg: "blue",
+  id: "Some",
 };
