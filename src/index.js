@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Section } from "./components/Section.js";
-import { Navbar } from "./components/Nav.js";
-import { Button } from "./components/HandleElement.js";
-import { Input } from "./components/InputHandle.js";
+import { Section } from "./components/Section";
+import { Navbar } from "./components/Nav";
+import { Button } from "./components/HandleElement";
+import { Input } from "./components/InputHandle";
+// import { Card } from "./components/Card";
 import "./style.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -19,5 +20,6 @@ root.render(
     <Section bg={"purple"} title="Prop Types" id="prop_types"></Section>
     <Button></Button>
     <Input></Input>
+    {/* <Card></Card> */}
   </>
 );
