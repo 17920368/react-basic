@@ -1,17 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Section } from "./components/Section";
-import { Navbar } from "./components/Nav";
-// import { Button } from "./components/HandleElement";
-// import { Input } from "./components/InputHandle";
-// import { Card } from "./components/Card";
-import { Button } from "./components/Fetch";
+// import { Section } from "./components/Section";
+// import { Navbar } from "./components/Nav";
+// // import { Button } from "./components/HandleElement";
+// // import { Input } from "./components/InputHandle";
+// // import { Card } from "./components/Card";
+// import { Button } from "./components/Fetch";
+// import { Counter } from "./components/Count";
+import { Form } from "./components/Validate";
 import "./style.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <>
-    <Navbar></Navbar>
+    {/* <Navbar></Navbar>
     <Section bg="#4D88D9" title="React" id="react"></Section>
     <Section bg="blue" title="Components" id="components"></Section>
     <Section bg="#282c34" title="Elements" id="elements"></Section>
@@ -19,8 +22,10 @@ root.render(
     <Section bg="red" title="State" id="state"></Section>
     <Section bg="black" title="Prop Types" id="prop_types"></Section>
     <Section bg={"purple"} title="Prop Types" id="prop_types"></Section>
-    {/* <Button></Button> */}
-    {/* <Input></Input> */}
     <Button></Button>
+    <Input></Input>
+    <Button></Button> */}
+    {/* <Counter></Counter> */}
+    <Form></Form>
   </>
 );
