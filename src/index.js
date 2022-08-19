@@ -6,7 +6,8 @@ import ReactDOM from "react-dom/client";
 // // import { Input } from "./components/InputHandle";
 // // import { Card } from "./components/Card";
 // import { Button } from "./components/Fetch";
-import { Counter } from "./components/Count";
+// import { Counter } from "./components/Count";
+import { Div, Form } from "./components/Ref";
 // import { Form } from "./components/Validate";
 import "./style.css";
 
@@ -25,7 +26,8 @@ root.render(
     <Button></Button>
     <Input></Input>
     <Button></Button> */}
-    <Counter></Counter>
+    {/* <Counter></Counter> */}
+    <Div></Div>
     {/* <Form></Form> */}
   </>
 );
