@@ -6,8 +6,8 @@ import ReactDOM from "react-dom/client";
 // // import { Input } from "./components/InputHandle";
 // // import { Card } from "./components/Card";
 // import { Button } from "./components/Fetch";
-// import { Counter } from "./components/Count";
-import { Form } from "./components/Validate";
+import { Counter } from "./components/Count";
+// import { Form } from "./components/Validate";
 import "./style.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -25,7 +25,7 @@ root.render(
     <Button></Button>
     <Input></Input>
     <Button></Button> */}
-    {/* <Counter></Counter> */}
-    <Form></Form>
+    <Counter></Counter>
+    {/* <Form></Form> */}
   </>
 );
