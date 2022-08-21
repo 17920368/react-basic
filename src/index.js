@@ -7,10 +7,10 @@ import ReactDOM from "react-dom/client";
 // // import { Card } from "./components/Card";
 // import { Button } from "./components/Fetch";
 // import { Counter } from "./components/Count";
-import { Div, Form } from "./components/Ref";
+// import { Div } from "./components/Ref";
 // import { Form } from "./components/Validate";
 import "./style.css";
-
+import { Counter } from "./components/CountReducer";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -27,7 +27,8 @@ root.render(
     <Input></Input>
     <Button></Button> */}
     {/* <Counter></Counter> */}
-    <Div></Div>
+    {/* <Div></Div> */}
     {/* <Form></Form> */}
+    <Counter />
   </>
 );
