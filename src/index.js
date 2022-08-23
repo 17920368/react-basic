@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import MyPageContext from "./components/MyPageContext";
+// import { App } from "./context/ThemeContext";
 // import { Section } from "./components/Section";
 // import { Navbar } from "./components/Nav";
 // // import { Button } from "./components/HandleElement";
@@ -10,7 +12,7 @@ import ReactDOM from "react-dom/client";
 // import { Div } from "./components/Ref";
 // import { Form } from "./components/Validate";
 import "./style.css";
-import { Counter } from "./components/CountReducer";
+// import { Counter } from "./components/CountReducer";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -29,6 +31,8 @@ root.render(
     {/* <Counter></Counter> */}
     {/* <Div></Div> */}
     {/* <Form></Form> */}
-    <Counter />
+    {/* <Counter /> */}
+    {/* <App /> */}
+    <MyPageContext></MyPageContext>
   </>
 );
